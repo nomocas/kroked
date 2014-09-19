@@ -1,0 +1,19 @@
+{
+  "name": "kroked",
+  "version": "0.1.0",
+  "author": "Gilles Coomans <gilles.coomans@gmail.com>",
+  "description": "custom markdown parser (marked) with macros support",
+  "licenses": [
+    {
+         "type": "LGPLv3.0",
+         "url": "http://www.gnu.org/licenses/lgpl-3.0.txt"
+     }
+  ],
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/nomocas/kroked.git"
+  },
+  "dependencies": {
+  },
+  "main": "./index.js"
+}

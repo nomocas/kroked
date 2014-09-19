@@ -1,0 +1,46 @@
+# hello
+
+@.small hello world
+
+	@.small(" hello world ")
+
+<small>`hello`</small>
+
+{% section inner 
+	{% aTag
+
+# my title
+
+<small> hello  {{ title }}  </small>@.capitilize(doo) `hello`
+	%}
+%}
+	@.hello(____fast is not enough____ )
+
+{%  block_inline(foo, 12) context(name) %}
+{! raw_inline !}
+
+	{! rawWithTab() capitilize
+		raw text
+		# a title
+	!}
+
+__this is bold__
+
+Hello {{ name }}
+
+{% dp-try(json::/...)  %}
+
+
+{! table( Nodejs specifics deepjs libraries )
+autobahnjs			restful thin server : middlewares (expressjs) + routing
+
+deep-shell			sh & ssh chains and cli
+
+deep-nodejs			nodejs related tools (restful fs, ...)
+deep-mongo			restful mongodb client
+deep-elastic 		restful client, index management, layered queries
+
+deep-mail			mails sender utilities
+!}
+
+
