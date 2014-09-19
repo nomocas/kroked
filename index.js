@@ -28,7 +28,7 @@
 if (typeof define !== 'function') {
     var define = require('amdefine')(module);
 }
-define(["require", "./lib/makro.js"], 
+define(["require", "./lib/makro"], 
 function(require, makro){
 	return makro;
 });
