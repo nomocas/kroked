@@ -229,7 +229,7 @@ kroked("# hello\n\n{{ to.replace }}", opt);
 ## Remarque
 
 The language and the meta-language proposed there is a base for future reflexions.
-It is already greatfuly usable, but as it want to be opened, lot of things are possible...
+It is already fully usable, but as it want to be opened, lot of things are possible...
 If you want to contribute, you're welcome...;)
 
 ## Licence
