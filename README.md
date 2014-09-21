@@ -81,7 +81,7 @@ template({ name:"John" });
 
 ## Table parsing.
 
-You could combine raw macros and a small tab delimitted cells lines lexer to produce quickly any "table like" widgets.
+You could combine raw macros and a small tab-delimitted-cells-lines-lexer to produce quickly any "table like" widgets.
 
 ```
 {! table ( Nodejs specifics deepjs libraries )
