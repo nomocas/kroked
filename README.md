@@ -182,13 +182,10 @@ By using the custom marked parser directly (kroked/lib/marked.js), you could def
 
 For this, you simply define 3 render methods that receive the directive(s), the eventual content and the options provided while parsing.
 
-You should also provide a directive lexer/parser that parse them as you want.
-
 examples with "kroked/lib/directives-parser":
 ```javascript 
 var marked = require("kroked/lib/marked"), // load custom marked parser (no macros language defined)
-	renderer = new marked.Renderer(),
-	directivesParser = require("kroked/lib/directive-parser");
+	renderer = new marked.Renderer();
 
 renderer.block_macro = function(directives, content, options) {
 	// directives is array : [{ name:"myDirective", args:[...] }, ...]
@@ -222,7 +219,7 @@ var opt = {
 	smartLists: true,
 	smartypants: false,
 
-	codespaces:false		// disable markdown rules : every line starting with 4 spaces (or more) or tab(s) are code
+	codespaces:false	// disable markdown rules : every line starting with 4 spaces (or more) or tab(s) are code
 };
 
 kroked("# hello\n\n{{ to.replace }}", opt);
