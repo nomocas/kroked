@@ -8,7 +8,6 @@
 
 {% section inner 
 	{% aTag
-
 # my title
 
 <small> hello  {{ title }}  </small>@.capitilize(doo) `hello`
@@ -31,16 +30,12 @@ Hello {{ name }}
 {% dp-try(json::/...)  %}
 
 
-{! table( Nodejs specifics deepjs libraries )
-autobahnjs			restful thin server : middlewares (expressjs) + routing
-
-deep-shell			sh & ssh chains and cli
-
-deep-nodejs			nodejs related tools (restful fs, ...)
-deep-mongo			restful mongodb client
-deep-elastic 		restful client, index management, layered queries
-
-deep-mail			mails sender utilities
+{! table( the table caption )
+Lorem			ipsum dolor sit amet			consectetur adipisicing elit
+sed do			eiusmod tempor incididunt		ut labore et dolore magna
+aliqua			Ut enim ad minim veniam,
+quis 			nostrud exercitation 			ullamco laboris nisi ut 
+aliquip 		ex ea commodo 					consequat. 
 !}
 
 
