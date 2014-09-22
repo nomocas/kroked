@@ -1,6 +1,6 @@
 {
  "name": "kroked",
- "version": "0.1.3",
+ "version": "0.1.4",
  "author": "Gilles Coomans <gilles.coomans@gmail.com>",
  "description": "custom markdown parser (marked) with macros support",
  "licenses": [
