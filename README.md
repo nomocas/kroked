@@ -41,7 +41,7 @@ and this :
 It will output : `<myTag>hello world : MY CONTENT...</myTag>`
 
 There is three things important to know : 
-* either the directive name reflect a directive defined in kroked.directives, and it will be used to render the macros. (see below to defining such macros)
+* either the directive name reflects a directive defined in kroked.directives, and it will be used to render the macros. (see below to defining such macros)
 * either the directive name is "unknown" (there is no associated directive in kroked.directives), and then kroked produce a tag with the name of the unknown directive. (i.e.  `<myDirective>content</myDirective>`)
 * directives are composed together, from right to left.
 
