@@ -1,0 +1,45 @@
+@backgrounds()
+
+=@icon(type)
+	@span.glyph-icon.glyph-icon-{{ type }}
+
+=@block
+	@div .bloup .vertically-centered :data-id()
+		@div .block
+			hello {{ @inner }}
+	@div .bloupi 
+
+=@blocks
+	@for( item in @inner )
+		@block( item )
+
+=@row
+	@div.row
+
+=@col
+	@div ~for( class in @Args ).col-{{ class }} ~if(...).active:data-checked(true)
+
+@col(xs-12,sm-6).bar
+	
+@block( hello world ).foo
+
+@block .foo
+	hello world
+
+@block #reu
+	hello world
+
+@blocks  #my-list
+	@icon( 'plus' ) hello world
+
+	@icon( 'plus' ) twice world
+
+	@icon( 'plus' ) third hello
+
+@blocks(list)
+
+=@div
+	<div>@inner</div>
+
+@if(...)
+	@div.foo 

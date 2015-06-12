@@ -1,0 +1,33 @@
+@import bst
+
+@h1(my-title)
+	My Title
+
+@section(my-panel)
+	@row
+		@col( md-4, xs-12 ) data-id({ id })
+			hello @span({{ name }})!
+		@col( md-4, xs-12 )
+			img(my/path.json) alt(hello world) class(fitted)
+			{! swigjs
+				{% for bloup in bloupies %}
+
+				{% endfor %}
+			!}
+
+		@form-horizontal action(/api/v1/bloupi)
+			@input-group
+			@button(send) click(action) 
+
+
+{! script
+	
+
+!}
+
+@row = {% div class
+	
+%}
+
+@row-fluid style(display: none;)
+	@row-fluid
